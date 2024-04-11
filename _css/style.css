@@ -30,7 +30,7 @@ header{
   height: 20%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  border-top: #777;
+  border-top: #742c2c;
 
 }
 .container-header{
