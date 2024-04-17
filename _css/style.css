@@ -138,7 +138,7 @@ box-sizing: border-box;
 main{
   width: 100%;
   background: color #b80505; 
-  height: 100dvh;
+ 
 }
 /* fim da formatação da main */
  /* começo do section banner promocional */
@@ -153,14 +153,16 @@ main{
  @media  ( max-width:400px){
   section{
    
-   max-width: 100%;
+   max-width: 390px;
+   margin: 1% 2%;
   }
   .img{
-  max-width: 80%;
+max-width:390px ;
   }
  
  .img>img{
- max-width: 320px;
+ max-width: 340px;
+ max-height: 138px;
   
  }
 }
@@ -196,7 +198,5 @@ main{
 
 }
 
-.cesta {
-  width: 2%;
-  height: 2%;
+
 
