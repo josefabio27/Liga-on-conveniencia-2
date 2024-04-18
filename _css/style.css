@@ -8,6 +8,15 @@ box-sizing: border-box;
   grid-area: navgeral;
   grid-column: span 3;
   }
+  .navbargeral a{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+  }
   
   .barraDeNavegaçao {
     overflow: hidden;
@@ -88,8 +97,17 @@ box-sizing: border-box;
       min-width: 390px;
       width: 100%;
     }
+    .navbargeral a{
+      font-size: 20px;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+    }
     .caimento .botaodecair {
-      font-size: 10px;
+      font-size: 20px;
       border: none;
       outline: none;
       color: #fff;
@@ -130,7 +148,7 @@ box-sizing: border-box;
    float: inline-end;
   }
   .cesta img{
-    max-width: 80%;
+    max-width: 70%;
   }
 }
   /* configurações da nav bar geral */
@@ -154,7 +172,8 @@ main{
   section{
    
    max-width: 390px;
-   margin: 1% 2%;
+   margin: 1% 9% 9% 5%;
+
   }
   .img{
 max-width:390px ;
